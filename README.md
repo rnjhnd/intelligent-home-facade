@@ -4,14 +4,14 @@
 
 ### **Class Definitions:**
 
-**HomeService (Interface):** Defines the common interface for all home services.
+- **HomeService (Interface):** Defines the common interface for all home services.
 
-**Light:** A service class implementing the HomeService interface, responsible for turning the lights on and off. It includes the `turnOn()` and `turnOff()` methods.
+- **Light:** A service class implementing the HomeService interface, responsible for turning the lights on and off. It includes the `turnOn()` and `turnOff()` methods.
 
-**TV:** A service class implementing the HomeService interface, responsible for turning the TV on and off. It includes the `turnOn()` and `turnOff()` methods.
+- **TV:** A service class implementing the HomeService interface, responsible for turning the TV on and off. It includes the `turnOn()` and `turnOff()` methods.
 
-**AirConditioning:** A service class implementing the HomeService interface, responsible for turning the air conditioning on and off. It includes the `turnOn()` and `turnOff()` methods.
+- **AirConditioning:** A service class implementing the HomeService interface, responsible for turning the air conditioning on and off. It includes the `turnOn()` and `turnOff()` methods.
 
-**HomeInterface:** The facade class that coordinates interactions between the client (HomeApp) and the individual home services. It includes the `turnOnAll()` and `turnOffAll()` methods to control all services simultaneously.
+- **HomeInterface:** The facade class that coordinates interactions between the client (HomeApp) and the individual home services. It includes the `turnOnAll()` and `turnOffAll()` methods to control all services simultaneously.
 
-**HomeApp:** The client class that uses the HomeInterface to access and utilize home services seamlessly
+- **HomeApp:** The client class that uses the HomeInterface to access and utilize home services seamlessly
