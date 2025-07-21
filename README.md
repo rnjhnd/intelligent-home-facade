@@ -14,9 +14,4 @@
 
 **HomeInterface:** The facade class that coordinates interactions between the client (HomeApp) and the individual home services. It includes the `turnOnAll()` and `turnOffAll()` methods to control all services simultaneously.
 
-**HomeApp:** The client class that uses the HomeInterface to access and utilize home services seamlessly.
-
-In your solution you must provide the following in your Github link account:
-
-  * Problem statement (description of the problem. Just copy what is stated here.
-  * Uploaded java codes for the solution.</div>
+**HomeApp:** The client class that uses the HomeInterface to access and utilize home services seamlessly
