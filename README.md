@@ -5,7 +5,7 @@
 
 A Java implementation of an intelligent home automation system using the **Facade Design Pattern**. This project demonstrates how to simplify complex subsystem interactions by providing a unified interface for controlling multiple home devices.
 
-## 🏠 Project Overview
+## 📋 Overview
 
 The Intelligent Home System manages various home services including lights, TV, and air conditioning. Instead of requiring users to interact with each service individually, the system provides a simplified interface through the `HomeInterface` facade class, which abstracts the complexity of the underlying subsystems.
 
