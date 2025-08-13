@@ -1,4 +1,4 @@
-# Intelligent Home System - Facade Pattern Implementation
+# Intelligent Home System
 
 A Java implementation of an intelligent home automation system using the **Facade Design Pattern**. This project demonstrates how to simplify complex subsystem interactions by providing a unified interface for controlling multiple home devices.
 
