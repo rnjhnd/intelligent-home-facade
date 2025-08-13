@@ -12,7 +12,7 @@ The Intelligent Home System manages various home services including lights, TV, 
 - **Loose Coupling**: Client code doesn't need to know about individual device implementations
 - **Extensible Design**: Easy to add new home devices without modifying existing code
 
-## 🏗️ Architecture & Design Pattern
+## 🏗️ Architecture
 
 ### Facade Pattern Implementation
 The **Facade Pattern** is a structural design pattern that provides a simplified interface to a complex subsystem. In this project:
