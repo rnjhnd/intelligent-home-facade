@@ -31,14 +31,14 @@ The **Facade Pattern** is a structural design pattern that provides a simplified
 
 ```
 intelligent-home-facade/
-├── FacadePattern/
-│   ├── HomeService.java          # Interface defining common service contract
+├── src/
+│   ├── HomeService.java         # Interface defining common service contract
 │   ├── Light.java               # Light service implementation
 │   ├── TV.java                  # TV service implementation
 │   ├── AirConditioning.java     # Air conditioning service implementation
 │   ├── HomeInterface.java       # Facade class providing unified interface
 │   └── HomeApp.java             # Client application demonstrating usage
-└── README.md                    # This file
+└── README.md                    # Project documentation
 ```
 
 ## 🔧 Class Documentation
@@ -199,12 +199,6 @@ Feel free to contribute to this project by:
 ## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 🔗 Related Resources
-
-- [Facade Pattern - Wikipedia](https://en.wikipedia.org/wiki/Facade_pattern)
-- [Design Patterns - Gang of Four](https://en.wikipedia.org/wiki/Design_Patterns)
-- [Java Documentation](https://docs.oracle.com/en/java/)
 
 ---
 
